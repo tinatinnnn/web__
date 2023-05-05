@@ -1,0 +1,193 @@
+/**********beginnings**************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.home,.about-me{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600; 
+}
+/************beginnings-end***************/
+
+/*****css-colors-root****************/
+:root{
+    --white:#FFFFFF;
+    --fill-solid-menu:#090909;
+    --dark:#000000;
+    --blog-color:#141414;
+    --blog-text-color:#505050;
+    --footer-color-copyright:#ECECEC;
+    --copyright-color:#D7D7D7;
+    --grey:#FAFAFA;
+    --footer:#202020;
+}
+/**********colors-end****************/
+
+/*************public************
+
+
+************Header*************/
+.container {
+    width: 100vw;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      margin: 1.7em 2.4em 2.3em 1.8em;
+}
+.navbar ul{
+    display: flex;
+    
+}
+
+.navbar a{
+    margin-left: 2.4em;
+    font-size: 1.2rem;
+    color:var(--fill-solid-menu)
+}
+/***********Header-end*************/
+
+/**************section**************/
+.img-hero{
+    width: 100%;
+}
+/**********position-relative-absolute**********/
+.position{
+    position: relative;
+}
+.date{
+    position: absolute;
+    top: 12.167em;
+    left: 1.667em;
+    color:var(--white);
+    font-size: 1.2rem;
+   
+}
+.description{
+    position: absolute;
+     top: 5.28em;
+    left: 0.625em;
+    font-size: 3.2rem;
+    color: var(--white);
+    letter-spacing:-3%;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif; 
+
+}
+.pharagraf{
+    font-size: 1.6rem;
+    color: var(--white);
+    line-height:20.11px ;
+    font-weight: 400;
+    position: absolute;
+     left: 1.25em;
+    right: 1.25em;
+    top: 15.43em;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+}
+/************position-relative-absoule-end************/
+/***********section-end************/
+
+/***********blog-card***************/
+.blog-card{
+    
+margin: 3.4em 2em 0 2em;
+   
+}
+.blog {
+    width: 100%;
+    border-radius:3px ;
+}
+.date-p{
+    color: var(--dark);
+    font-weight: 400;
+    line-height:17.82px ;
+    font-size: 1.417rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    margin-top:1.4em;
+    
+   
+}
+h3{
+    font-size: 2.4rem;
+    margin-bottom: 0.375em;
+    color:var(--blog-color);
+    font-weight: 700;
+    line-height:25.97px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0.26em;
+
+
+}
+.item{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height:20px ;
+     font-family: 'Source Sans Pro', sans-serif;
+     color:var(--blog-text-color);
+}
+.center{
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 20.11px;
+    color: var(--dark);
+    margin-top: 1.68em;
+    padding-bottom: 2.68em;
+}
+/***************blog-card-end*************/
+/***************footer********************/
+.footer{
+    background-color: var(--footer);
+      min-width: 100%;
+    height: 105px;
+}
+.journal{
+    text-align: center;
+    color: var(--footer-color-copyright);
+    display: block;
+    padding-top: 3.7em;
+    font-size: 1.2rem;
+    font-weight: 700;
+     font-family: 'Source Sans Pro', sans-serif; 
+     line-height:12.98px;
+     letter-spacing: -3%;
+}
+.copyright{
+    text-align: center;
+    color: var(--copyright-color);
+    font-size: 1.2rem;
+    margin-top: 0.4em;
+    font-weight: 400;
+      font-family: 'Source Sans Pro', sans-serif; 
+}
+/****************Fooote End*****************/
+
+.blog-desktop{
+    display: none;
+}
+/****************view-blog-header*****************/
+.view-blog-second{
+   margin-left: 2em;
+}
