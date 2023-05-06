@@ -30,6 +30,7 @@ li{
     --copyright-color:#D7D7D7;
     --grey:#FAFAFA;
     --footer:#202020;
+    --color15:#151515;
 }
 /**********colors-end****************/
 
@@ -162,6 +163,7 @@ h3{
     background-color: var(--footer);
       min-width: 100%;
     height: 105px;
+    margin-top:4.3em;
 }
 .journal{
     text-align: center;
@@ -187,7 +189,69 @@ h3{
 .blog-desktop{
     display: none;
 }
-/****************view-blog-header*****************/
+/****************view-blog-*****************/
 .view-blog-second{
    margin-left: 2em;
+}
+.date-blog-second{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height:15.08px ;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--color15);
+    padding-top: 3.2em;
+    display: block;
+
+}
+.description-blog-second{
+    padding-top: 1.6em;
+    font-size: 3.2em;
+    line-height:34.62px ;
+    letter-spacing:-3% ;
+     font-family: 'Source Sans Pro', sans-serif; 
+     font-weight: 700;
+
+}
+.pharagraf-blog-second{
+    padding-top: 1.5em;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height:20.11px ;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--color15);
+
+}
+.view-mobile{
+    width: 100%;
+    border: 3px;
+}
+.blog-second-img{
+    margin: 3.4em 2em 0 2em;
+}
+/*****************text****************/
+.text-content{
+    padding-top: 3.5em;
+    padding-left: 2em;
+    color: var(--color15);
+     font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+ h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height:20px ;
+}
+.laptop-blogs{
+    margin-top: 1.6em;
+    display: block;
+}
+.description-journal{
+    font-weight: 400;
+    padding-top: 2em;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height:20px ;
+     font-family: 'Source Sans Pro', sans-serif;
+     color:var(--color15);
 }
