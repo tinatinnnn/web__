@@ -82,13 +82,14 @@ li{
 }
 .description{
     position: absolute;
-     top: 5.28em;
-    left: 0.625em;
+     top: 5.22em;
+    left: 0.627em;
     font-size: 3.2rem;
     color: var(--white);
     letter-spacing:-3%;
     font-weight: 700;
     font-family: 'Source Sans Pro', sans-serif; 
+    line-height:34.62px ;
 
 }
 .pharagraf{
