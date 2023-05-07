@@ -256,3 +256,28 @@ h3{
      font-family: 'Source Sans Pro', sans-serif;
      color:var(--color15);
 }
+/**********view-blog end**************/
+/************user-about***************/
+.user-blog-third{
+    margin-left: 2em;
+    margin-top: 2.7em;
+}
+
+.description-blog-third{
+
+ /*padding-top: 1.6em;
+    font-size: 3.2em;
+    line-height:34.62px ;
+    letter-spacing:-3% ;
+     font-family: 'Source Sans Pro', sans-serif; 
+     font-weight: 700;*/
+    }
+.pharagraf-blog-third{
+
+padding-top: 1.5em;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height:20.11px ;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--color15);
+}
